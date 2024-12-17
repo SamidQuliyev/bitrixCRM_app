@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bitrixCRM_app/static/css/main.ab96d278.css",
+    "main.js": "/bitrixCRM_app/static/js/main.2f3199d2.js",
+    "static/js/488.07acbd92.chunk.js": "/bitrixCRM_app/static/js/488.07acbd92.chunk.js",
+    "index.html": "/bitrixCRM_app/index.html",
+    "main.ab96d278.css.map": "/bitrixCRM_app/static/css/main.ab96d278.css.map",
+    "main.2f3199d2.js.map": "/bitrixCRM_app/static/js/main.2f3199d2.js.map",
+    "488.07acbd92.chunk.js.map": "/bitrixCRM_app/static/js/488.07acbd92.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab96d278.css",
+    "static/js/main.2f3199d2.js"
+  ]
+}
