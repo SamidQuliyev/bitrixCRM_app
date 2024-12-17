@@ -1,0 +1,33 @@
+/* Navbar.css */
+.navbar {
+    background-color: #007bff;  /* Navbar arxa fon rəngi */
+  }
+  
+  .nav-link {
+    color: white;  /* Normalda ağ rəng */
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 0.3s ease;  /* Hamısını eyni zamanda animasiya edir */
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2); /* Kölgə effekti */
+  }
+  
+  .nav-link:hover {
+    color: red;  /* Üstünə gələndə qırmızı rəng */
+    transform: scale(1.1);  /* Linki bir az böyütmə effekti */
+    text-shadow: 0px 0px 15px rgba(255, 0, 0, 0.7); /* Üstünə gələndə daha güclü kölgə */
+  }
+  
+  /* Aktiv səhifə üçün qırmızı rəngin tətbiqi */
+  .nav-link.active, .nav-link.active:hover {
+    color: red !important;  /* Aktiv olduqda qırmızı rəng */
+    text-shadow: 0px 0px 15px rgba(255, 0, 0, 0.7) !important; /* Aktiv olarkən daha parlaq kölgə */
+  }
+  
+  /* Logo ölçüsü */
+  .navbar-logo {
+    width: 40px;  /* Logo ölçüsü */
+    height: 40px;
+    margin-right: 10px; /* Logo ilə mətn arasına boşluq */
+    object-fit: contain; /* Logo düzgün ölçüdə göstərilsin */
+  }
+  
